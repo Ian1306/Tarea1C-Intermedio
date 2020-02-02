@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewData["Title"] = "Multiplicar";
+}
+
+<h1>Tabla de Multiplicar</h1>
+<html >
+<head>
+    <title></title>
+</head>
+<body>
+    <div class="row">
+
+        <form action="Multiplicar/Multiplicar" method="post">
+
+            <label for="Num1">Nuumero que desea multiplicar</label>
+            <input id="Num1" type="number" name="Num1" value="" />
+
+
+
+           
+            @ViewBag.ResulMultip 
+
+
+            <button type="submit"> Calcular</button>
+            <button type="reset">Limpiar</button>
+
+        </form>
+       
+        
+
+    </div>
+
+</body>
+</html>

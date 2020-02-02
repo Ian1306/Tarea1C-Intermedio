@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewData["Title"] = "Ecuacion";
+}
+
+<h1>Ecuacion</h1>
+
+<html >
+<head>
+    <title></title>
+</head>
+<body>
+    <form action="ecuacion/ecuacion" method="post">
+
+        <label for="a"> LA LETRA A </label>
+        <input id="a" type="number" name="a" value="" />
+        <br />
+
+        <label for="b"> LA LETRA B </label>
+        <input id="b" type="number" name="b" value="" />
+
+        <br />
+        <label for="c"> lA LETRA C </label>
+        <input id="c" type="number" name="c" value="" />
+
+        <br />
+
+        @ViewBag.Rsultado1
+        <br />
+        @ViewBag.Rsultado1
+
+        <br />
+        <button type="submit">Buenas CALCULO</button>
+        <button type="reset">Limpiar</button>
+
+    </form>
+
+
+
+</body>
+</html>

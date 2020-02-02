@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewData["Title"] = "Zodiacal";
+}
+
+<h1>Zodiacal</h1>
+
+
+
+<div clase =" row">
+    <form action="zodiacal/zodiacal" method="post">
+
+        <label for="Fecha"> Numero de Dia </label>
+        <input id="fecha" type="date" name="fecha" value="" />
+
+
+
+        @ViewBag.fecha
+
+
+        <button type="submit">Buenas Signo</button>
+        <button type="reset">Limpiar</button>
+
+    </form>
+
+
+</div>
+
